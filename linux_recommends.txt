@@ -1,0 +1,88 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install laptop-mode-tools
+sudo apt remove apport apport-gtk
+sudo apt install ubuntu-restricted-addons
+sudo apt install gdebi
+sudo apt install tlp
+sudo apt install adb
+sudo apt install python-is-python3
+sudo apt install python3-pip
+echo "alias pip=pip3" >> ~/.bash_aliases
+source ~/.bash_aliases
+sudo tlp start
+ sudo tlp-stat -s 
+ sudo apt-get install ubuntu-restricted-extras
+ sudo apt install build-essential
+ sudo apt install gnome-tweaks
+ sudo apt install chrome-gnome-shell
+ sudo apt install clang
+ sudo apt install codeblocks
+ sudo snap install pycharm-educational --classic
+ sudo apt install uget
+ sudo snap install whatsdesk
+ sudo apt install code
+ sudo snap install postman
+ sudo snap install android-studio --classic
+ sudo snap install scrcpy
+ sudo snap install zoom-client
+ sudo apt install git
+
+
+
+ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+ sudo apt install ./google-chrome-stable_current_amd64.deb
+
+
+
+//for Docker
+sudo apt-get remove docker docker-engine docker.io containerd runc
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//gnome extensions
+Caffine
+Compiz alike Windows effect
+Dash to panel
+Window is Ready-Notification Remover
