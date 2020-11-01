@@ -15,7 +15,7 @@ So,you can use docker commands without sudo and will get no permission error.Hap
 <h3>make git</h3></br>Git and github will be installed without any hussle by this.It will install git and will create a ssh key .then you have to copy the ssh key and add to your github account if added this will install tools to use github.then you are ready to commit and push.
 </br>
 </br>
-<h3>make app</h3></br>running this command some everyday apps will be shown in terminal just write your needed app name and voila ...it will be installed.You can add your favourite apps to the list.I have added most essential apps everybody will use.
+<h3>make apps</h3></br>running this command some everyday apps will be shown in terminal just write your needed app name and voila ...it will be installed.You can add your favourite apps to the list.I have added most essential apps everybody will use.
 </br>
 </br>
 <h4>N.B: This is my first shell script for everyday use.</h4>
